@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafos</title>
+</head>
+<body>
+    <h1>Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito no meio 
+    de um par de tags p &lt;p&gt; e &lt;/p&gt;</p>
+    <p>Se precisar quebrar o texto em algum lugar específico <br>como esse, vc pode usar a tag &lt;br&gt; (break room)</p> <!--Isso é um comentário / lt (less than) é "<" e gt (greater than) é ">"-->
+    <p>Vamos adicionar alguns símbolos especiais</p>
+    &reg; <!--marca registrada-->
+    &copy; <!--copywrite-->
+    &trade; <!--marca registrada em inglês-->
+    &euro; <!--símbolos de moeda-->
+    &cent;
+    &Delta; <!--Símbolo-->
+    &uparrow; <!--seta pra cima (pode usar uarr)-->
+    <p>Vamos adicionar alguns emojis</p>
+    &#x1F929; <!--qualquer emoji da emojipedia.org-->
+    &#x2728;
+</body>
+</html>
