@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementByI('teste')</code> é escrito em linguagem JavaScript, aqui envelopamos o comando com a tag code</p>
+    <h2>Organizando</h2>
+<p>A tag code não organiza o seu código, deixa tudo um do lado do outro. Por isso, precisamos envelopar a tag code com a tag pre</p>
+<h3>Com code</h3>
+<p>Aqui usamos um código Python para exemplificar</p> 
+ <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+print(f'O número {num} é PAR')
+print ('Fim do programa')
+        </code>
+<h3>Com code + pre</h3>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+print(f'O número {num} é PAR')
+print ('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--usei a tag "q" para por aspas pq com a tag eu to trazendo sentido para a palavra, melhor q por aspas direto em uma citação-->
+    <h2>Citações completas</h2>
+    <p>Segunda Ana Claudia Quintana Arantes, no seu livro A morte é um dia que vale a pena viver:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/A_morte_%C3%A9_um_dia_que_vale_a_pena_viver/C8qGDwAAQBAJ?hl=pt-BR&gbpv=1">
+        Quase todo mundo pensa que a norma é fugir da realidade da morte. Mas a verdade é que a morte é uma ponte para a vida. Despratique as normas.
+    </blockquote> <!--citação pra determinado autor e o cite é pra por quem é o dono da frase (direitos autorais)-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando! (kkkk)</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">estou aprendendo a criar coisas em html</bdo> (que coisa estranha kkkkk)</p>
+</body>
+</html>
