@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: rgb(0, 255, 242);
+        }
+    </style> <!--Parâmetro style não é mais html, é css. Eu posso por assim pra mudar apenas um mark: <p>Podemos criar também <mark style = "background-color: rgb(0, 247, 255);">um texto marcado</mark> usando a tag MARK</p>.
+    Ou eu posso usar igual acima pra mudar a cor de todos os marks-->
 </head>
 <body>
     <h1>Principais formatações</h1>
     <h2>Negrito / Destaque</h2>
-    <p>Nessa frase temos um <b>temro em negrito</b> usando a tag B (não semântica)</p> <!--tag n semântica é que n tem significado, apenas forma--> 
-    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+    <p>Nessa frase temos um <b>temro em negrito</b> usando a tag B (não semântica).</p> <!--tag n semântica é que n tem significado, apenas forma--> 
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
     <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p> <!--utilizando crtl+shift+p vc abre uma barra e digita wrap with abbreviation e seleciona a taa, nesse caso, só digitei "i"-->
-    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p> <!--utilizando crtl+shift+p vc abre uma barra e digita wrap with abbreviation e seleciona a taa, nesse caso, só digitei "i"-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p> 
+    <p>E no outro parágrafo, temos <mark>outro texto marcado no final.</mark></p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p> <!--tag big está obsoleta, pq da pra formatar de outra maneira (css?)-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar<dell> um texto como excluído</dell> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido </ins>para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <U>sublinhado</U> utilizando a tag U (não semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo X<sup>20+3</sup>, eu utilizo a tag sup.</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, eu utilizo a tag sub.</p>
 </body>
 </html>
